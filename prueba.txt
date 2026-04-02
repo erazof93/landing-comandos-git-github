@@ -1,0 +1,17 @@
+git init // para iniciar
+git add . // para llevar todo al stage
+git commin -m "mensaje" // para fotografiar el cdodigo
+
+git remote add origin {URL_REPOSITORIO} // para integrar mi git local con github
+git push -u origin {NOMBRE_DE_LA_RAMA} //el -u es para guardar la rama, POR LO GENERAL ES MASTER, es decir a la siguiente solo colocar "git push"
+
+git branch // para listar las ramas
+git branch {NOMBRE_DE_LA_RAMA} // para crear una rama
+git switch {NOMBRE_DE_LA_RAMA} // para cambiar de rama
+
+SE PUEDE SUBIR A GITHUB, EN EL MISMO PROYECTO, LA OTRAS RAMAS
+
+
+Para integrar la rama1 a la rama MASTER
+git switch master (tenemos que situarnos en la rama master porque ed ahi vamos a traer a la rama 1)
+git pull origin rama1 (copia la rama1 y nos devuelve a la rama Master o donde estemos situados)
