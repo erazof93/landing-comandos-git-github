@@ -12,6 +12,6 @@ git switch {NOMBRE_DE_LA_RAMA} // para cambiar de rama
 SE PUEDE SUBIR A GITHUB, EN EL MISMO PROYECTO, LA OTRAS RAMAS
 
 
-Para integrar la rama1 a la rama MASTER
+Para integrar la rama1 a la rama MASTER (la rama1 tambien tiene que subirse al repositorio github)
 git switch master (tenemos que situarnos en la rama master porque ed ahi vamos a traer a la rama 1)
 git pull origin rama1 (copia la rama1 y nos devuelve a la rama Master o donde estemos situados)
